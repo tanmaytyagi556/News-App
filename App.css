@@ -1,0 +1,85 @@
+*{
+  margin : 0px;
+  padding : 0px;
+}
+
+.App{
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+  padding: 0px;
+  margin: 0px;
+}
+
+.header h1{
+  font-size: 72px;
+
+  text-align: center;
+  font-style: oblique;
+  font-family: serif;
+  background: linear-gradient(to right, #23c3e2 0%, red 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header{
+  background-image: url(denys-nevozhai-2vmT5_FeMck-unsplash.jpg);
+  backface-visibility: hidden;
+  padding-top: 7%;
+}
+
+.nav{
+  background: rgba(255, 255, 255, 0.5);
+}
+
+ul{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+li{
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+
+  list-style-type: none;
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.headline{
+  margin-top: 5px;
+  padding: 15px 30px;
+  border-radius: 5%;
+  background: rgba(255,255,255,0.2);
+  border-style: none;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.headline :hover{
+  background : rgba(255,255,255,0.8);
+
+}
+
+.search{
+  width: 80%;
+  padding: 15px;
+
+}
+
+form{
+
+  text-align: center;
+
+}
+label{
+  color: white;
+  width : 50px;
+}

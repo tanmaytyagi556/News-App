@@ -1,0 +1,50 @@
+.news{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgb(50, 50, 50);
+  margin: 2% 20%;
+  padding: 5px;
+  text-align: center;
+  align-content: center;
+
+}
+.news:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.image{
+  width: 40%;
+  border-radius: 5%;
+
+
+}
+
+a{
+  padding : 5px;
+
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover{
+  color: white;
+  font-size: 25px;
+
+}
+
+.title{
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-family: sans-serif;
+  text-shadow: 3px 3px white;
+}
+
+.author{
+   text-shadow: 1px 1px #aaa;
+   font-style: italic;
+}
